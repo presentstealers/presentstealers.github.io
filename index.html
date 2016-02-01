@@ -12,6 +12,7 @@
      <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="js/index.js"></script>
   <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
   <style>
   #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9 { width: 100px; height: 100px; padding: 0.5em; }
@@ -31,38 +32,7 @@
 }
   </style>
   <script>
-  $(function() {
-    function check(a, b) {
-        var posa = a.position();
-        var posb = b.position();
-
-        if (Math.abs(posa.top - posb.top) < 10 && Math.abs(posa.left - posb.left) < 10)
-            return true;
-
-        return false;
-    }
-
-    function checkAll() {
-        if (check($("#img6"), $("#pos1")) &&
-            check($("#img2"), $("#pos2")) &&
-            check($("#img4"), $("#pos3")) && 
-            check($("#img9"), $("#pos4")) && 
-            check($("#img1"), $("#pos5")) && 
-            check($("#img3"), $("#pos6"))) {
-            window.location.replace("verysecretpage.html");
-        }
-    }
-
-    $( "#img1" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-    $( "#img2" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-    $( "#img3" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-    $( "#img4" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-    $( "#img5" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-    $( "#img6" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-    $( "#img7" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-    $( "#img8" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-    $( "#img9" ).draggable({snap: ".Column", snapMode: "inner", stop:checkAll });
-  });
+  
   </script>
 
     <title>Present stealers</title>
