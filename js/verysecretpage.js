@@ -71,14 +71,14 @@ $(function() {
 		window.location.replace("verysecretfinalpage.html");
     }
 
-    $( "#f1" ).draggable({snap: ".C", snapMode: "inner", stop:checkAll });
-    $( "#f2" ).draggable({snap: ".C", snapMode: "inner", stop:checkAll });
-    $( "#f3" ).draggable({snap: ".C", snapMode: "inner", stop:checkAll });
-    $( "#f4" ).draggable({snap: ".C", snapMode: "inner", stop:checkAll });
-    $( "#f5" ).draggable({snap: ".C", snapMode: "inner", stop:checkAll });
-    $( "#f6" ).draggable({snap: ".C", snapMode: "inner", stop:checkAll });
-    $( "#f7" ).draggable({snap: ".C", snapMode: "inner", stop:checkAll });
-    $( "#f8" ).draggable({snap: ".C", snapMode: "inner", stop:checkAll });
+    $( "#f1" ).draggable({snap: ".C,.D", snapMode: "inner", stop:checkAll });
+    $( "#f2" ).draggable({snap: ".C,.D", snapMode: "inner", stop:checkAll });
+    $( "#f3" ).draggable({snap: ".C,.D", snapMode: "inner", stop:checkAll });
+    $( "#f4" ).draggable({snap: ".C,.D", snapMode: "inner", stop:checkAll });
+    $( "#f5" ).draggable({snap: ".C,.D", snapMode: "inner", stop:checkAll });
+    $( "#f6" ).draggable({snap: ".C,.D", snapMode: "inner", stop:checkAll });
+    $( "#f7" ).draggable({snap: ".C,.D", snapMode: "inner", stop:checkAll });
+    $( "#f8" ).draggable({snap: ".C,.D", snapMode: "inner", stop:checkAll });
 	//$( "#f9" ).draggable({grid: [ 68, 71 ], stop:checkAll });
 	
     var spos = []
