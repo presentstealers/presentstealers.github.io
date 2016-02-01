@@ -65,7 +65,7 @@ $(function() {
 				if (pos[i][0] == pos[j][0]) return;
 				if (pos[i][1] == pos[j][1]) return;
 				if (pos[i][0] + pos[i][1] == pos[j][0] + pos[j][1]) return;
-				if (pos[i][0] - pos[i][1] == pos[j][0] - pos[][1]) return;
+				if (pos[i][0] - pos[i][1] == pos[j][0] - pos[j][1]) return;
 			}
 			
 		window.location.replace("verysecretfinalpage.html");
